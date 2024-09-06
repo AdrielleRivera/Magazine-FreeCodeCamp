@@ -35,6 +35,11 @@ main {
   row-gap: 3rem;
 }
 
+img{
+  width:100%;
+  object-fit:cover;
+}
+
 .heading {
   grid-column: 2 / 3;
   display: grid;
@@ -48,5 +53,5 @@ main {
 
 .hero {
   grid-column: 1 / -1;
-  position:relative;
+  position: relative;
 }
